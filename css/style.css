@@ -291,8 +291,9 @@ botton.btn btn-success btn-block:hover {
     background-image: url('../img/%E9%A6%AC%E7%A5%96.jpg');
 }
 
-.map {
-    padding: 30px;
+.vedio {
+    padding-left: 100px;
+    padding-top: 30px;
 }
 
 
