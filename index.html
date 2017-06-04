@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <title>Website Demo</title>
+</head>
+<!-- data-offset填入.navbar的高度 -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <audio autoplay>
+            <source src="../0512/sea.mp3" type="audio/mpeg">
+        </audio>
+    <!-- note nav -->
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">LeaneeYing</a>
+            </div>
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#subscribeSection">DrawYing</a></li>
+                    <li><a href="#featureSection">我喜歡的</a></li>
+                    <li><a href="#introduceSection">關於我</a></li>
+                    <li><a href="#portfolioSection">旅人足跡</a></li>
+                    <li><a href="#userReviewSection">Next?</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    <!-- note header -->
+
+    <header id="header" class="jumbotron">
+        <div class="jumbotron-content">
+            <h1>Running Leanee's Diary</h1>
+            <p>跟我一起去流浪吧</p>
+            <p1>2015@Lanyu</p1>
+
+        </div>
+    </header>
+    <!-- note subscribeSection -->
+    <section id="subscribeSection">
+
+
+        <a href="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/10625024_10201879793711482_7600869668641576852_n.jpg?oh=88f1eeb2653a86c42a040cc33ebea8f5&oe=59A108A8" target="_blank">
+            <button class="btn btn-success btn-block">DrawYing</button>
+        </a>
+
+    </section>
+    <!-- todo subscribe modal -->
+    <!-- note featureSection -->
+    <section id="featureSection">
+
+        <h1 class="section-title">Adventure with me</h1>
+        <h2 class="sub-section-title">Life is Good</h2>
+        <!-- note main-features -->
+        <div class="container">
+
+            <div class="row main-features">
+                <div class="col-sm-4 feature">
+                    <i class="wow bounceIn fa fa-paper-plane" aria-hidden="true"></i>
+                    <h3>Mountain Climbing</h3>
+                    <p>我愛山<br/>閒暇時爬個郊山，有能力時爬個大山<br/>山總教會我很多事情，山是多變的，<br/>如果想要攻下山頭，除了堅持也必須保持彈性</p>
+                </div>
+                <div class="col-sm-4 feature">
+                    <i class="wow lightSpeedIn fa fa-briefcase" aria-hidden="true"></i>
+                    <h3>Land</h3>
+                    <p>在陸地上持續嘗試新鮮事物<br/>人生不容易，但我深知天父爸爸的帶領<br/>能活著去追尋、去愛，真好</p>
+                </div>
+                <div class="col-sm-4 feature">
+                    <i class="wow swing fa fa-diamond" aria-hidden="true"></i>
+                    <h3>You See Sea</h3>
+                    <p>懷念在蘭嶼看海的日子<br/> 希望能在小島重拾荒廢一年的潛水&amp;釣魚技能</p>
+                </div>
+            </div>
+
+            <!-- note secondary-features -->
+
+
+        </div>
+    </section>
+    <!-- note introduceSection -->
+    <section id="introduceSection">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h1 class="section-title">Who am I</h1>
+                    <h2 class="sub-section-title">Good things take time</h2>
+                    <h3>Experience</h3>
+                    <p>當過屁孩、舉球員、菸酒生、兩年的Legal High，未來有無限可能，來許個願吧 </p>
+                    <h3>Talent</h3>
+                    <p>恆心、毅力、做白日夢
+                        <a href="#"></a>
+                    </p>
+                    <h3>Keep learning new things</h3>
+                    <p>彈好幾首歌、消化待看書單、精進第三外語<strong>(CSS/HTML)</strong>
+                        <a href=""></a>
+                    </p>
+                    <h3>Motto</h3>
+                    <p>盡心盡力，把結果交給上帝。<br/>上帝只會給你過得去的考驗。
+                        <a href="#"></a>.</p>
+                    <!-- todo add a youtube video -->
+
+                    <div class="map">
+                        <iframe width='100%' height='400' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市松山區八德路三段12巷5弄38號&z=16&output=embed&t='></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- note portfolioSection -->
+    <section id="portfolioSection">
+        <div class="row">
+            <div class="col-sm-3 photo" id="photo-1">
+                <h3>上帝的部落</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-2">
+                <h3>天使的眼淚</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-3">
+                <h3>海龜的故鄉</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-4">
+                <h3>仙境般的村落</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-5">
+                <h3>太陽的女兒</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-6">
+                <h3>台灣之巔</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-7">
+                <h3>人之島</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-8">
+                <h3>國之北疆</h3>
+            </div>
+        </div>
+    </section>
+    <!-- note userReviewSection -->
+    <section id="userReviewSection">
+        <h1 class="section-title">My Plan In the Future</h1>
+        <h2 class="sub-section-title">Ny little dream</h2>
+
+
+        <!--輪播開始-->
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!--輪播圖片或內容-->
+                <div class="item active">
+                    <!-- 第一頁 -->
+                    <div class="row user-review">
+                        <div class="col-sm-2 col-sm-offset-2">
+                            <img class="img-responsive img-circle" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/551895_3269512111646_1543545839_n.jpg?oh=4b2b0d0e1eb7b11ed10c54f2505efea8&oe=59A992D2" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Short-term</h3>
+                            <h4 class="name">Find and Try</h4>
+                            <p>找座小島看海發呆放空一下，<br/>找座大山挑戰一下，<br/>沒有計畫或許是最好的計畫</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <!-- 第二頁 -->
+                    <div class="row user-review">
+                        <div class="col-sm-2 col-sm-offset-2">
+                            <img class="img-responsive img-circle" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/12642569_10204470577599460_8048388822489455481_n.jpg?oh=2753bf56a7902afdc72e28243d62c7d0&oe=59B3E064" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Long-term</h3>
+                            <h4 class="name">Find my Passion </h4>
+                            <p>找個值得耕耘的地方好好努力，<br/>為世界貢獻自己的一份心力<br/><br/>未完待續...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--上一頁 下一頁 按鈕-->
+            <div class="control-btn">
+                <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+            </div>
+
+            <!--小圓點換頁-->
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+            </ol>
+        </div>
+        <!--輪播結尾-->
+
+
+
+
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+
+        <h1 class="section-title">Contact Me</h1>
+
+        <h4><a href="" class="email">leanee0515@gmail.com</a></h4>
+        <p class="address">4F., No.38, Aly. 5, Ln. 12, Sec. 3, Bade Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)</p>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=1682648952" target="_blank"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://leanee0515.github.io/four-piggy/" target="_blank"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/leaneeying/" target="_blank"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+
+
+
+        <div class="footer-bar">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Join us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Policy</a></li>
+                </ul>
+                <p class="copy-right">&copy; 2017 Brand
+                    <p>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#header" id="scrollTopBtn">Go Back</a>
+
+</body>
+
+</html>
