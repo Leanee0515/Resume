@@ -91,6 +91,11 @@ h4 {
 
 /* note header */
 
+.button-group {
+    width: 33%;
+    margin: 0 auto;
+}
+
 header.jumbotron {
     height: 800PX;
     text-align: center;
